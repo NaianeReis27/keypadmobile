@@ -1,17 +1,16 @@
-/* You can add global styles to this file, and also import other style files */
-body,
-html {
-    margin: 0;
-    padding: 0;
-}
-
 body {
-    border: 2px solid red;
-    box-sizing: border-box;
-    height: 100svh;
-}
-
-button {
-    position: absolute;
-    bottom: 0;
-}
+    margin: 0; /* Remover margens padrão */
+    padding: 0; /* Remover preenchimentos padrão */
+    font-family: Arial, sans-serif; /* Definir uma fonte padrão */
+  }
+  
+  .content {
+    position: fixed; /* Fixar a posição do conteúdo */
+    top: 0; /* Colocar o conteúdo no topo da página */
+    left: 0; /* Colocar o conteúdo no canto esquerdo da página */
+    width: 100%; /* Ocupar toda a largura da página */
+    padding: 20px; /* Adicionar algum espaçamento */
+    background-color: #f0f0f0; /* Cor de fundo */
+    box-sizing: border-box; /* Garantir que o padding não afete a largura da div */
+  }
+  
