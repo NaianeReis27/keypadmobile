@@ -21,7 +21,7 @@ export class AppComponent implements OnInit {
   }
 
   getSize(event: any){
-    console.log('Altura da tela:',  window.innerHeight);
+    console.log('Altura da tela:',  document.documentElement.clientHeight);
   }
   
 }
