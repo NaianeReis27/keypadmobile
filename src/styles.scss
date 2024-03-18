@@ -4,15 +4,10 @@ body {
     font-family: Arial, sans-serif; /* Definir uma fonte padrão */
   }
   
-  .content {
-    position: fixed; /* Fixar a posição do conteúdo */
-    top: 0; /* Colocar o conteúdo no topo da página */
-    left: 0; /* Colocar o conteúdo no canto esquerdo da página */
-    width: 100%; /* Ocupar toda a largura da página */
-    padding: 20px; /* Adicionar algum espaçamento */
-    background-color: #f0f0f0; /* Cor de fundo */
-    box-sizing: border-box;
-  }
+
+form{
+    height: 100%;
+}
   
 
 button{
