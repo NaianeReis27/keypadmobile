@@ -14,13 +14,14 @@ export class AppComponent implements OnInit {
     
   }
   title = 'keypadmobile';
- 
+  height?: number; 
   @HostListener('window:resize', ['$event'])
   onResize(event: any) {
     this.getSize(event);
   }
 
   getSize(event: any){
+    this.height = window.visualViewport?.height;
     console.log('Altura da tela 2:', window.visualViewport?.height,  document.documentElement.clientHeight);
   }
   
